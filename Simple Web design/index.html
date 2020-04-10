@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple web dsign</title>
+    
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="header">
+                <h2>Website title</h2>
+                <p>Site title goes here </p>
+            </div>
+        </header>
+        <nav>
+            <div id="nav">
+                <ul>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item &diams;</a>
+                        <ul>
+                            <li><a href="#">Dropdown</a></li>
+                            <li><a href="#">Dropdown</a></li>
+                            <li><a href="#">Dropdown</a></li>
+                            <li><a href="#">Dropdown</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div id="wrapper">
+        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios"></a>
+
+        <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+                <img src="img/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="img/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="img/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    </div>
+        </section>
+        <div id="content-wrapper">
+            <div class="content">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro esse at quae nisi, aliquam amet adipisci hic perspiciatis, exercitationem laudantium cum. Impedit earum, inventore quam, iure maiores aspernatur minima optio quidem ipsam vitae molestias libero fugiat tenetur in facere neque necessitatibus repellat ratione quia, cupiditate! Recusandae </p>
+                </article>
+            </div>
+            <div id="sidebar">
+                <aside>
+                    <h2>Sidebar heading</h2>
+                    <ul>
+                        <li><a href="#">List item</a></li>
+                        <li><a href="#">List item</a></li>
+                        <li><a href="#">List item</a></li>
+                        <li><a href="#">List item</a></li>
+                        <li><a href="#">List item</a></li>
+                        <li><a href="#">List item</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <footer>
+            <div id="footer">
+                <p>&copy; All Rights Reserved By- Md Palash Mahmud</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
